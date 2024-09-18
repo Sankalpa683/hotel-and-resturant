@@ -51,8 +51,8 @@ const Hero = () => {
   const avatarUrls = [
     "/sankalpa.jpg",
     "/owner.jpg",
-    "https://images.unsplash.com/photo-1590206122252-46d60a2a0f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE4MQ&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://images.unsplash.com/photo-1590206122255-5c11b1f0845d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE4Mg&ixlib=rb-1.2.1&q=80&w=1080",
+    "/chefnaihola.png",
+    "/aarkochef.jpg",
   ];
 
   return (
