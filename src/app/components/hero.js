@@ -49,8 +49,8 @@ import { FaStar, FaSearch, FaPlayCircle } from 'react-icons/fa';
 
 const Hero = () => {
   const avatarUrls = [
-    "https://images.unsplash.com/photo-1590206122247-226d3f388d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE3OQ&ixlib=rb-1.2.1&q=80&w=1080",
-    "https://images.unsplash.com/photo-1590206122270-3ecfb91c430e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE4MA&ixlib=rb-1.2.1&q=80&w=1080",
+    "/sankalpa.jpg",
+    "/owner.jpg",
     "https://images.unsplash.com/photo-1590206122252-46d60a2a0f87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE4MQ&ixlib=rb-1.2.1&q=80&w=1080",
     "https://images.unsplash.com/photo-1590206122255-5c11b1f0845d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhhcHB5JTIwY3VzdG9tZXJ8ZW58MHwxfHx8MTY5NzM1MDE4Mg&ixlib=rb-1.2.1&q=80&w=1080",
   ];
@@ -84,7 +84,7 @@ const Hero = () => {
           </div>
           <div className="text-center sm:text-left">
             <p className="font-semibold text-lg mb-2">Over 5000 Happy Customers</p>
-            <div className="flex text-yellow-400">
+            <div className="flex text-yellow-400 items-center justify-center text-center">
               {[...Array(5)].map((_, i) => (
                 <FaStar key={i} className="w-5 h-5" />
               ))}
