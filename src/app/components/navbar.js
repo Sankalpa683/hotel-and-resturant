@@ -13,13 +13,13 @@ const Navbar = () => {
 
   return (
     <header className="shadow sticky top-0 bg-white z-50">
-      <div className="max-w-7xl mx-auto py-0 px-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto pt-4 pb-0 sm:pb-6 md:pb-4 px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="https://png.pngtree.com/png-clipart/20220903/ourmid/pngtree-chef-restaurant-logo-png-image_6136204.png"
+            src="/logo.jpg"
             alt="Logo"
-            className="w-16"
+            className="w-32"
           />
         </div>
 

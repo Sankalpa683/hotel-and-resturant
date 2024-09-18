@@ -46,6 +46,7 @@
 
 import React from 'react';
 import { FaStar, FaSearch, FaPlayCircle } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Hero = () => {
   const avatarUrls = [
@@ -69,12 +70,12 @@ const Hero = () => {
           Indulge in luxury and comfort with exquisite dining and impeccable service in the heart of Nepal.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
-          <a href="/menu" className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-full flex items-center transition-colors duration-300">
+          <Link href="#menu" className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-6 rounded-full flex items-center transition-colors duration-300">
             <FaSearch className="mr-2" /> Explore Our Menu
-          </a>
-          <a href="/about" className="bg-transparent hover:bg-gray-800 text-white font-semibold py-3 px-6 border-2 border-white rounded-full flex items-center transition-colors duration-300">
+          </Link>
+          <Link href="#aboutus" className="bg-transparent hover:bg-gray-800 text-white font-semibold py-3 px-6 border-2 border-white rounded-full flex items-center transition-colors duration-300">
             <FaPlayCircle className="mr-2" /> Learn More About Us
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col sm:flex-row items-center gap-4 text-white">
           <div className="flex -space-x-2 mb-4">
